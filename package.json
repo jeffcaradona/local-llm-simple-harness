@@ -1,0 +1,26 @@
+{
+  "name": "local-llm-simple-harness",
+  "version": "0.0.1",
+  "description": "A simple review harness",
+  "homepage": "https://github.com/jeffcaradona/local-llm-simple-harness#readme",
+  "bugs": {
+    "url": "https://github.com/jeffcaradona/local-llm-simple-harness/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffcaradona/local-llm-simple-harness.git"
+  },
+  "license": "MIT",
+  "author": "Jeff Caradona",
+  "type": "module",
+  "main": "review.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.6"
+  }  
+
+}
